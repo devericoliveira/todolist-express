@@ -1,0 +1,18 @@
+{
+  "name": "todolist-express",
+  "version": "1.0.0",
+  "description": "Primeiros passos com backend usando express para construir uma to do list.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "javascript"
+  ],
+  "author": "devericoliveira",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
