@@ -10,4 +10,10 @@ route.post('/checklist', (request, response) => {
   return response.status(200).send(request.body);
 });
 
+route.get('/checklist/:id', (request, response) => {
+  const { id } = request.params;
+  console.log(id);
+  return response.status(200).send(`Id: ${id}`);
+});
+
 module.exports = route;
